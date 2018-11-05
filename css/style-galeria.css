@@ -1,0 +1,25 @@
+.bot{
+	background: black;
+	border-radius: 10px;
+	color: white;
+}
+.bot:hover{
+	background: transparent;
+	color: black;
+}
+.form-control{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #DCECF3;
+	color: black;
+}
+.cba{
+	background: transparent;
+	colo
+}
+
+.cba:hover{
+	background: black;
+	color: white;
+
+}
