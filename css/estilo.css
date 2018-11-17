@@ -9,3 +9,37 @@ text-align: right;
 color: gray;
 text-indent: 2px;
 }
+.center{
+	margin: 0 auto;
+	background-color: green;
+
+}
+
+.centerALL{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centerLADOS{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+
+.bot{
+	background: black;
+	border-radius: 10px;
+	color: white;
+}
+.bot:hover{
+	background: transparent;
+	color: black;
+}
+.form-control{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #F4FACF;
+	color: black;
+}
