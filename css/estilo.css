@@ -5,7 +5,7 @@ text-indent: 2px;
 }
 
 h2 {
-text-align: right; 
+text-align: center; 
 color: gray;
 text-indent: 2px;
 }
@@ -29,11 +29,7 @@ text-indent: 2px;
 	background: #F4FACF;
 	color: black;
 }
-.rodape{
-	text-align: center;
-	background: #4A4A4A;
-	color: white;
-}
+
 
 
 
