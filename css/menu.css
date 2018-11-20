@@ -1,6 +1,9 @@
 .bot{
-	background: black;
-	border-radius: 10px;
+	background: transparent;
+	padding: 6px 5px;
+	border-radius: 5px;
+	border: 1px solid white;
+	transition: 0.2s;
 	color: white;
 }
 .bot:hover{
@@ -9,8 +12,8 @@
 }
 .form-control{
 	border: 1px solid black;
-	border-radius: 10px;
-	background: #F4FACF;
+	border-radius: 5px;
+	background: white;
 	color: black;
 }
 .cba{
