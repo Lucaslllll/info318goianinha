@@ -2,53 +2,102 @@
 <html lang="pt-br">
 <body>
 	<meta charset="utf-8" />
-	<title>Pousada</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+	<title> Guia goianinha </title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.js" />
+	<link rel="stylesheet" type="text/css" href="css/menu.css"/>
+	<link rel="stylesheet" type="text/css" href="css/rodape.css"/>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 </head>
 <body>
-	<!--Menu-->
-	<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
-		<div class="container">
-			<a class="navbar-brand h1 mb-0" href="">Curso</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			
-			<div class="collapse navbar-collapse" id="navbarSite">
-				
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item"><a class="nav-link" href="">Inicio</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Fotos</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Contato</a></li>
-					<li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
-				</ul>
-				<ul class="navbar-nav ml-auto">
-					
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="navDrop">Pousadas</a>
-						<div class="dropdown-menu">
-							<a href="" class="dropdown-item">Goianinha</a>
-							<a href="" class="dropdown-item">Canguaretama</a>
-						</div>
-					</li>
-					<li class="nav-item">
-						<a href="login.html" class="nav-link">Login</a>	
-					</li>
-					
-				</ul>
+	<div class="container-fluid">
+		<!--Menu-->
+		<div class="row">	
+			<nav class="navbar navbar-expand-lg navbar-dark cba col-12">
+				<a class="navbar-brand" href="index.html">Pousada Goaninha</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Principal<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="galeria.html">Galeria</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contato.html">Contato</a>
+						</li>
+
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="navDrop">Pousadas</a>
+							<div class="dropdown-menu">
+								<a href="" class="dropdown-item">Goianinha</a>
+								<a href="" class="dropdown-item">Canguaretama</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="navDrop">Lojas</a>
+							<div class="dropdown-menu">
+								<a href="" class="dropdown-item">Goianinha</a>
+								<a href="" class="dropdown-item">Canguaretama</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a href="login.html" class="nav-link afa">Login</a>	
+						</li>
+						
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="bot my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</div>
+
+		<div class="row">
+			<img src="img/pousada.jpg" class="center sombra"/>
+		</div>
+
+		<div class="titulos">
+			<h1>Hopedagens Guianinha</h1>
+
+			<h2>Serviços de hospedagem na região de goianinha</h2>
+		</div>
+
+		<div class="col-12  col-sm-12 col-md-6 col-lg-3">
+			<img src="img/pousada1.jpg" class="img-fluid sombra" alt="">
+		</div>
+
+		<div class="col-12  col-sm-12 col-md-6 col-lg-3">
+			<img src="img/pousada2.jpg" class="img-fluid sombra" alt="">
+		</div>
 
 
-				<form class="form-inline">
-					<input type="text" class="form-control ml-4 mr-2" name="buscar" placeholder="Buscar...">
-					<button class="btn btn-light" type="submit" >Buscar</button>
-				</form>
+		<div class="col-12  col-sm-12 col-md-6 col-lg-3">
+			<img src="img/pousada3.jpg" class="img-fluid sombra" alt="">
+		</div>
 
+		<div class="col-12  col-sm-12 col-md-6 col-lg-3">
+			<img src="img/pousada4.jpg" class="img-fluid sombra" alt="Cinque Terre">
+		</div>
+		
+		<div class="row">
+			<div class="col-12 rodape">
+				<h6>Todos os direitos reservados</h6>
+				<h6><small>Guianinha</small></h6>
 			</div>
 		</div>
-	</nav>
+
+	</div>
 	<!--Fim Menu-->
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

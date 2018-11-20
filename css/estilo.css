@@ -1,0 +1,50 @@
+h1 {
+text-align: center; 
+color: yellowgreen;
+text-indent: 2px;
+}
+
+h2 {
+text-align: center; 
+color: gray;
+text-indent: 2px;
+}
+.center{
+	margin: 0 auto;
+	display: block;
+    
+}
+.titulos{
+	background: rgba(125, 187, 58, 0.2);
+}
+.sombra{
+	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+    box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.form-control{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #F4FACF;
+	color: black;
+}
+
+
+
+
+
+
+/*.centerALL{
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centerLADOS{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}*/
+

@@ -1,0 +1,30 @@
+.bot{
+	background: black;
+	border-radius: 10px;
+	color: white;
+}
+.bot:hover{
+	background: white;
+	color: black;
+}
+.form-control{
+	border: 1px solid black;
+	border-radius: 10px;
+	background: #F4FACF;
+	color: black;
+}
+.cba{
+	background: #4A4A4A;
+	padding-left: 20px;
+	font-family: Georgia;
+}
+.afa{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: white;
+}
