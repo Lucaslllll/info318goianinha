@@ -17,7 +17,8 @@
 	color: black;
 }
 .cba{
-	background: #4A4A4A;
+	/*background: #4A4A4A;*/
+	 background-image: linear-gradient(to bottom, #1AC1F9, #13A6D8, #0A8AB6); 
 	padding-left: 20px;
 	font-family: Georgia;
 }
@@ -31,3 +32,15 @@ a{
 a:hover{
 	color: white;
 }
+
+
+
+
+
+	/*
+		Serve  para borrar
+	-webkit-filter: blur(4px);
+	-moz-filter:blur(2px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(7px);
+	filter:blur(10px);*/

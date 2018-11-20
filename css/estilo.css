@@ -1,6 +1,6 @@
 h1 {
 text-align: center; 
-color: yellowgreen;
+color: #056383;
 text-indent: 2px;
 }
 
@@ -15,7 +15,7 @@ text-indent: 2px;
     
 }
 .titulos{
-	background: rgba(125, 187, 58, 0.2);
+	background: #A7DEF1;
 }
 .sombra{
 	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -28,6 +28,10 @@ text-indent: 2px;
 
 
 
+/*
+	cor massa
+background: rgba(125, 187, 58, 0.2);
+*/
 
 /*.centerALL{
 	position: relative;
