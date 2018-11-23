@@ -18,7 +18,11 @@
 }
 .cba{
 	/*background: #4A4A4A;*/
+<<<<<<< HEAD
 	background-image: linear-gradient(to bottom, #89D1EA, #0A8AB6); 
+=======
+	background: #040404; 
+>>>>>>> a51d6e3a59e37573b4f84bec7fb75e210cf4bb88
 	padding-left: 20px;
 	font-family: Georgia;
 }
@@ -33,8 +37,12 @@ a:hover{
 	color: white;
 }
 body{
+<<<<<<< HEAD
 	background: #89D1EA;
 
+=======
+	
+>>>>>>> a51d6e3a59e37573b4f84bec7fb75e210cf4bb88
 }
 
 
