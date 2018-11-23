@@ -38,6 +38,13 @@ body{
 
 }
 
+.nav-item:hover{
+	border-bottom: 1px white solid;
+}
+.a{
+	height: 4em;
+}
+
 
 
 
