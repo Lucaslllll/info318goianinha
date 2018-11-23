@@ -35,6 +35,13 @@ text-indent: 2px;
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
+.carousel-item > div {
+	background: #848484;
+	opacity: 0.8;
+	position: none;
+	margin: 0 auto;
+}
+
 .tcor{
 	color: white
 }
