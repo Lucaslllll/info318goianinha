@@ -1,0 +1,32 @@
+.item1{
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/pousada7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: contrast(145%) saturate(161%);
+}
+.item2{
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/pousada6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: contrast(145%) saturate(161%);
+}
+
+.item3{
+	height: 500px;
+	width: 100%;
+	background-image: url(../img/pousada5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: contrast(145%) saturate(161%);
+}
+
+.nav-item:hover{
+	border-bottom: 1px white solid;
+}
+.a{
+	height: 4em;
+}
