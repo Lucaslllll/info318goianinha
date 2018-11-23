@@ -1,6 +1,6 @@
 h1 {
 text-align: center; 
-color: yellowgreen;
+color: #056383;
 text-indent: 2px;
 }
 
@@ -9,13 +9,24 @@ text-align: center;
 color: gray;
 text-indent: 2px;
 }
-.center{
+
+
+.center1{
 	margin: 0 auto;
-	display: block;
-    
+}
+
+.center{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, -0%);
+	width:  50%;
+
 }
 .titulos{
-	background: rgba(125, 187, 58, 0.2);
+	background: #A7DEF1;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 }
 .sombra{
 	-webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
@@ -23,17 +34,26 @@ text-indent: 2px;
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.form-control{
-	border: 1px solid black;
-	border-radius: 10px;
-	background: #F4FACF;
-	color: black;
+.carousel-item > div {
+	background: #848484;
+	opacity: 0.8;
+}
+.tcor{
+	color: white
+}
+
+.img{
+	filter: contrast(145%) saturate(161%);
+	height: 400px
 }
 
 
 
 
-
+/*
+	cor massa
+background: rgba(125, 187, 58, 0.2);
+*/
 
 /*.centerALL{
 	position: relative;
