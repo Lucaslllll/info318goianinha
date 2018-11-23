@@ -23,12 +23,3 @@
 	background-size: cover;
 	filter: contrast(145%) saturate(161%);
 }
-
-.transparent{
-	opacity: 0.2;
-}
-
-.slide:hover > .transparent{
-	opacity: 1;
-	transition: 0.2s;
-}

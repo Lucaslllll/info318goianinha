@@ -35,13 +35,6 @@ text-indent: 2px;
     box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
 }
 
-.carousel-item > div {
-	background: #848484;
-	opacity: 0.8;
-	position: none;
-	margin: 0 auto;
-}
-
 .tcor{
 	color: white
 }
@@ -50,6 +43,8 @@ text-indent: 2px;
 	filter: contrast(145%) saturate(161%);
 	height: 32em;
 }
+
+/*carousel*/
 
 .backblack{
 	background: rgba(0, 0, 0, 0.5);
@@ -60,6 +55,19 @@ text-indent: 2px;
 	right: 0px;
 	left: 0px;
 }
+
+.transparent{
+	opacity: 0.2;
+}
+
+.slide:hover > .transparent{
+	opacity: 1;
+	transition: 0.2s;
+}
+
+
+/*fim do carousel*/
+
 /*
 	cor massa
 background: rgba(125, 187, 58, 0.2);
