@@ -19,7 +19,8 @@ text-indent: 2px;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, -0%);
-	width:  50%;
+	width:  100%;
+	height: auto;
 
 }
 .titulos{
@@ -44,7 +45,7 @@ text-indent: 2px;
 
 .img{
 	filter: contrast(145%) saturate(161%);
-	height: 21em;
+	height: 32em;
 }
 
 
