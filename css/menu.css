@@ -43,9 +43,13 @@ body{
 }
 
 .nav-item:hover{
-	border-bottom: 1px white solid;
+	border-bottom: 1px solid;
+	border-color: rgba(255, 255, 255, 0.75)
 }
 .active{
+	border-bottom: 1px white solid;
+}
+.active:hover{
 	border-bottom: 1px white solid;
 }
 
