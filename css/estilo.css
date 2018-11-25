@@ -23,6 +23,10 @@ text-indent: 2px;
 	height: auto;
 
 }
+.centertext{
+	text-align: center;
+	display: block;
+}
 .titulos{
 	background: #A7DEF1;
 	margin-top: 10px;
@@ -64,7 +68,44 @@ text-indent: 2px;
 	opacity: 1;
 	transition: 0.2s;
 }
+/*EDITANDO LOJAS E SERVIÇOS*/
+.titulo{
+	padding:10px 0;
+	margin: 6px 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background: black;
+	color: white;
+}
+.cards{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
+.cards span.h5{
+	border-bottom: 1px dashed black;
+	padding-bottom: 5px;
+	color: black;
+}
+
+.cards:hover span.h5{
+	border-bottom: 1px solid black;
+	transition: 0.2s;
+}
+
+.cards a{
+	text-decoration: none;
+}
+.textbasic{
+	color: black;
+}
+.cards:hover .card-body{
+	background: rgba(0, 0, 0, 0.2);
+	transition: 0.1s;
+}
+.bg{
+	background: transparent;
+}
 
 /*fim do carousel*/
 

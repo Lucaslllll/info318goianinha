@@ -38,14 +38,16 @@ body{
 
 }
 
+.nav-item{
+	border-bottom: 1px transparent solid;
+}
+
 .nav-item:hover{
 	border-bottom: 1px white solid;
 }
-.a{
-	height: 4em;
+.active{
+	border-bottom: 1px white solid;
 }
-
-
 
 
 	/*
