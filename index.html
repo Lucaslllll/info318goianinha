@@ -8,9 +8,10 @@
 	<link rel="stylesheet" type="text/css" href="css/menu.css"/>
 	<link rel="stylesheet" type="text/css" href="css/rodape.css"/>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-	<link rel="stylesheet" type="text/css" href="css/hospedagem.css" />
+	<link rel="stylesheet" type="text/css" href="css/hospedagens.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
 </head>
 <body>
 	<div class="container-fluid">
@@ -38,6 +39,7 @@
 							<li class="nav-item">
 								<a class="nav-link" href="servicos.html">Serviços e Lojas</a>
 							</li>	
+
 						</ul>
 						<form class="form-inline my-2 my-lg-0">
 							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -51,7 +53,7 @@
 		<!--Conteudo-->
 		
 		<div class="row">
-			<div id="carouselExampleControls" class="carousel slide center" data-ride="carousel">
+			<div id="carouselExampleControls" class="carousel slide center d-none d-lg-block" data-ride="carousel">
 				<ol class="carousel-indicators transparent">
 					<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleControls" data-slide-to="1"></li>
@@ -59,29 +61,87 @@
 				</ol>
 				<div class="carousel-inner">
 
-					<div class="carousel-item item1 active">
-						<div class="carousel-caption backblack col-12 d-none d-md-block">
-							<h5 class="tcor">Pousada delícia</h5>
-							<p class="tcor">Venha tomar um suco de laranja</p>
+					<div class="carousel-item active">
+						<img class="d-block w-100 img-carousel" src="img/pousada5.jpg" alt="Primeiro Slide">
+						<div class="carousel-caption backblack">
+							<h5 class="tcor">Pousada 1</h5>
+							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
 						</div>
 					</div>
 
 					<div class="carousel-item item2">
-						<div class="carousel-caption backblack d-none d-md-block">
-							<h5 class="tcor">Pousada Faustânica</h5>
-							<p class="tcor">Tá pegando fogo, bicho</p>
+						<img class="d-block w-100 img-carousel" src="img/pousada6.jpg" alt="Segundo Slide">
+						<div class="carousel-caption backblack">
+							<h5 class="tcor">Pousada 2</h5>
+							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
 						</div>
 					</div>
 					<div class="carousel-item item3">
-						<div class="carousel-caption backblack d-none d-md-block">
-							<h5 class="tcor">Pousada Generica</h5>
-							<p class="tcor">Era melhor ver o filme do pelé</p>
+						<img class="d-block w-100 img-carousel" src="img/pousada7.jpg" alt="Terceiro Slide">
+						<div class="carousel-caption backblack">
+							<h5 class="tcor">Pousada 3</h5>
+							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- Visivel somente para os Celulares -->
+		<div class="row">
+			<div class="col-12 d-block d-sm-block d-md-block d-lg-none d-xl-none titulo">
+				<h2 class="textcenter h2">Destaques</h2>
+			</div>
+		</div>
+		<div class="conteudo d-block d-sm-block d-md-block d-lg-none d-xl-none bg-black">
+			<div class="container">
+				<div class="row">	
+					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards">
 
+							<a href="#">
+								<div class="card" style="width: 17rem;">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
+									<div class="card-body">
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards">
+
+							<a href="#">
+								<div class="card" style="width: 17rem;">
+									<img class="card-img-top" src="img/pousada6.jpg" alt="Lojas">
+									<div class="card-body">
+										<span class="h5 centertext">Lorem ipsum dolor sit amet</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards">
+
+							<a href="#">
+								<div class="card" style="width: 17rem;">
+									<img class="card-img-top" src="img/pousada7.jpg" alt="Lojas">
+									<div class="card-body">
+										<span class="h5 centertext">Lorem ipsum</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua.</span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<!--Conteudo 1-->
 		<div class="row">
 			<div class="col-12 titulo">
@@ -96,10 +156,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -110,10 +171,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -124,10 +186,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -138,10 +201,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -152,10 +216,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -166,10 +231,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -180,10 +246,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -194,10 +261,11 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
@@ -208,16 +276,32 @@
 
 							<a href="#">
 								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada.jpg" alt="Lojas">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
 									<div class="card-body">
-										<span class="h5 centertext">Açai</span>
-										<p class="card-text "><span class="textbasic">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</span></p>
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
 									</div>
 								</div>
 							</a>
 						</div>
 					</div>
-					
+					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards">
+
+							<a href="#">
+								<div class="card" style="width: 17rem;">
+									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
+									<div class="card-body">
+										<span class="h5 centertext">Lorem</span>
+										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. </span></p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -235,8 +319,8 @@
 
 
 	</div>
-
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>

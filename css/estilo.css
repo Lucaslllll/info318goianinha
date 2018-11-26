@@ -51,13 +51,18 @@ text-indent: 2px;
 /*carousel*/
 
 .backblack{
-	background: rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.7);
 	width: 100%;
 }
 
 .carousel-caption{
 	right: 0px;
 	left: 0px;
+}
+
+.img-carousel{
+	height: 480px;
+	filter: contrast(145%) saturate(161%);
 }
 
 .transparent{
@@ -71,7 +76,7 @@ text-indent: 2px;
 /*EDITANDO LOJAS E SERVIÇOS*/
 .titulo{
 	padding:10px 0;
-	margin: 6px 0;
+	margin: 0px 0px -1px 0px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
 	background: black;
@@ -92,7 +97,9 @@ text-indent: 2px;
 	border-bottom: 1px solid black;
 	transition: 0.2s;
 }
-
+.card-img-top{
+	height: 180px;
+}
 .cards a{
 	text-decoration: none;
 }
