@@ -61,7 +61,7 @@ text-indent: 2px;
 }
 
 .img-carousel{
-	height: 480px;
+	height: 500px;
 	filter: contrast(145%) saturate(161%);
 }
 
@@ -98,7 +98,9 @@ text-indent: 2px;
 	transition: 0.2s;
 }
 .card-img-top{
-	height: 180px;
+	height: 225px; 
+	width: 100%; 
+	display: block;
 }
 .cards a{
 	text-decoration: none;
@@ -114,6 +116,40 @@ text-indent: 2px;
 	background: transparent;
 }
 
+
+/*conteudo geral*/
+.tagSpan{	
+	padding: 2px;
+	margin: 0px;
+	display: inline;
+	float: left;
+	color: gray;
+}
+
+.tagLink{
+	color: gray;
+}
+.tagLink:hover{
+	color: gray;
+}
+.tags{
+	margin: 2px 0px;
+}
+.categoriaLink{
+	color: rgba(0, 0, 0, 1);
+	font-weight: bold;
+}
+
+.categoriaLink:hover{
+	color: rgba(0, 0, 0, 1);
+}
+
+.categoria{
+	margin: 6px 0px;	
+}
+.conteudoCard{
+	margin: 2px 0px;
+}
 /*fim do carousel*/
 
 /*
@@ -134,3 +170,10 @@ background: rgba(125, 187, 58, 0.2);
 	transform: translate(-50%, 0);
 }*/
 
+
+
+/*alterando scroll */
+body{ height:300px; overflow:scroll; } /* limitando altura do box */
+body::-webkit-scrollbar { width:4px; background:#e3e0d6; background: transparent;} /* configurando scroll */
+body::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); }
+body::-webkit-scrollbar-thumb { border-radius:10px; background:black;  }
