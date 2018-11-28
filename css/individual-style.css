@@ -19,12 +19,65 @@
 	margin-bottom: 10px;
 }
 .vertical{
-	border-right: 1px solid grey;
-	height: 400px;
+
+	height: 100%;
 	text-align: center;
+	position: relative;
 }
 .horizontal{
+
 	height: 400px;
 	background: transparent;
 	text-align: center;
+}
+
+
+
+.paragrafo{
+	text-indent: 4em;
+}
+
+/*Layout*/
+.lateral-direito{
+	border-left: 1px solid black;
+}
+
+/*alterando informacoes*/
+
+.title-individual{
+	border-bottom: 1px solid black;
+	padding-bottom: 5px;
+}
+
+
+/*Editando imagens individuais*/
+.img-individual{
+	margin-top: 5px;
+ 	width: auto;
+ 	height: auto;
+ 	filter: contrast(125%) saturate(131%);
+}
+
+.capa{
+	background-image: url(../img/hotel.jpg);
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-attachment: fixed;
+	height: 450px;
+	filter: contrast(125%) saturate(141%);
+}
+.capa-div{
+	width: 100%;
+}
+
+.capa-individual{
+	height: 60%;
+	width: 100%;
+}
+
+/*Mexendo no mapa*/
+.center-map{
+	left: 50%;
+	transform: 
+
 }
