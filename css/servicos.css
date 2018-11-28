@@ -25,8 +25,42 @@
 }
 
 
-
 .conteudo .col-12  {
 
 }
 */
+.centercard{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+.center1{
+	margin: 0 auto;
+	width: 70%;
+}
+/*alteração de tag*/
+.cen{
+	width: 100%;
+	text-align: center;
+	margin-top: 4px;
+
+}
+.center{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, -0%);
+	width:  100%;
+	height: auto;
+
+}
+.centertext{
+	text-align: center;
+	display: block;
+
+}
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}

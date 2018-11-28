@@ -28,6 +28,7 @@ text-indent: 2px;
 	text-align: center;
 	display: block;
 }
+
 .titulos{
 	background: #A7DEF1;
 	margin-top: 10px;
@@ -122,8 +123,7 @@ text-indent: 2px;
 .tagSpan{	
 	padding: 2px;
 	margin: 0px;
-	display: inline;
-	float: left;
+	float: right;
 	color: gray;
 }
 
@@ -146,7 +146,8 @@ text-indent: 2px;
 }
 
 .categoria{
-	margin: 6px 0px;	
+	margin: 6px 0px;
+	width: 100%;	
 }
 .conteudoCard{
 	margin: 2px 0px;
