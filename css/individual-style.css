@@ -150,7 +150,11 @@
 
 .content{
 	position: relative;
-	top: 456px;
 	display: block;
+}
+
+.space-content{
+	position: relative;
+	height: 456px;
 }
 
