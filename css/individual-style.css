@@ -25,9 +25,9 @@
 
 }
 .titulo{
-	background: white;
 	margin: 0;
-	background: rgba(254, 254, 254, 1);
+	background: black;
+	color: white;
 }
 .titulos{
 	background: #A7DEF1;
