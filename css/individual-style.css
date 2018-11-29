@@ -53,9 +53,9 @@
 /*Editando imagens individuais*/
 .img-individual{
 	margin-top: 5px;
- 	width: auto;
- 	height: auto;
- 	filter: contrast(125%) saturate(131%);
+	width: auto;
+	height: auto;
+	filter: contrast(125%) saturate(131%);
 }
 
 .capa{
@@ -63,9 +63,19 @@
 	background-repeat: no-repeat;
 	background-position: center;	
 	background-attachment: fixed;
+	height: 600px;
+	filter: contrast(125%) saturate(141%);
+}
+
+.capa2{
+	background-image: url(../img/hotel.jpg);
+	background-repeat: no-repeat;
+	background-position: center;	
+	background-attachment: fixed;
 	height: 450px;
 	filter: contrast(125%) saturate(141%);
 }
+
 .capa-div{
 	width: 100%;
 }
@@ -81,3 +91,47 @@
 	transform: 
 
 }
+
+
+/*PARALLAX*/
+
+.header-paralax {
+	background-image: url(../img/hotel.jpg);
+	background-size: cover;
+	width: 100%;
+	position: fixed;
+	height: 566px;
+	top: -50px;
+}
+
+.header-paralax{
+	text-align: center;
+
+}
+
+.text-parallax{   
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 3px 1px #000;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 900;
+	letter-spacing: 20px;
+	padding: 210px 0;
+	display: block;
+    font-size: 50px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	margin-top: 0px;
+	opacity: 1;
+
+}
+
+.content{
+	background: #E7E3DA;
+	position: relative;
+	top: 456px;
+	display: block;
+}
+
