@@ -1,8 +1,14 @@
 /*background*/
 .bg{
-	background: #E7E3DA;
+	background: rgba(254, 254, 254, 1);
 }
 
+/*font geral*/
+
+/*FONT do title*/
+.font-title{
+	color: rgb(20, 20, 20)
+}
 .center1{
 	margin: 0 auto;
 	width: 100%;
@@ -50,8 +56,12 @@
 /*alterando informacoes*/
 
 .title-individual{
+	color: rgb(10, 100, 200);
 	border-bottom: 1px solid black;
 	padding-bottom: 5px;
+	font-family: Georgia, serfi;
+	font-style: italic;
+	font-weight: 900; 
 }
 
 
