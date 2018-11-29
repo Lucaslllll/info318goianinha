@@ -24,6 +24,11 @@
 	height: auto;
 
 }
+.titulo{
+	background: white;
+	margin: 0;
+	background: rgba(254, 254, 254, 1);
+}
 .titulos{
 	background: #A7DEF1;
 	margin-top: 10px;
@@ -103,7 +108,7 @@
 /*Mexendo no mapa*/
 .center-map{
 	left: 50%;
-	transform: 
+	transform: ;
 
 }
 
