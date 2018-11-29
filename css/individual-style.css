@@ -1,3 +1,8 @@
+/*background*/
+.bg{
+	background: #E7E3DA;
+}
+
 .center1{
 	margin: 0 auto;
 	width: 100%;
@@ -129,7 +134,6 @@
 }
 
 .content{
-	background: #E7E3DA;
 	position: relative;
 	top: 456px;
 	display: block;
