@@ -181,6 +181,10 @@ body{
 /*fontes*/
 
 
+/*editando o modal*/
+.modal-header{
+	border-bottom: 1px solid;
+}
 /*fim do carousel*/
 
 /*
