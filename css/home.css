@@ -60,3 +60,33 @@
 .transparente:hover .navbar-brand{
 	color: white !important;
 }
+
+
+.titulo{
+	color: rgb(100, 240, 220);
+	font-style: italic;
+	font-weight: bolder
+}
+
+.founders{
+	height: 209px;
+	width: 209px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+.founders-name{
+	color: white;
+	font-weight: 540;
+	font-family: Georgia;
+}
+
+.founders-bg{
+	background: rgba(0, 0, 0, 0.9);
+	padding: 10px;
+}
+.social{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}

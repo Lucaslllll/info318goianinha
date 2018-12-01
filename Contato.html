@@ -12,12 +12,11 @@
 </head>
 <body>
 	<div class="container-fluid">
-		
 		<!--Parte do Menu-->
 		<div class="row">	
 			<nav class="navbar navbar-expand-lg navbar-dark cba col-12 a">
 				<div class="container">
-					<a class="navbar-brand" href="Home.html">GCM</a>
+					<a class="navbar-brand" href="index.html">GCG</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -29,12 +28,9 @@
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="restaurantes.html">Restaurantes</a>
-							</li>		
+							</li>			
 							<li class="nav-item">
-								<a class="nav-link" href="passeios.html">Passeios</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link" href="servicos.html">Serviços </a>
+								<a class="nav-link" href="servicos.html">Serviços</a>
 							</li>		
 							<li class="nav-item">
 								<a class="nav-link" href="lojas.html">Lojas</a>
@@ -50,13 +46,13 @@
 						<ul class="navbar-nav ml-auto">
 
 							<li class="nav-item">
-								<a href="login.html" class="nav-link afa">Login</a>	
+								<a href="#" data-toggle="modal" data-target="#siteModal" class="nav-link afa">Login</a>	
 							</li>
 
 						</ul>
 						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="bot my-2 my-sm-0" type="submit">Buscar</button>
+							<input class="form-control pl-1 pr-1 ml-1 mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+							<button class="bot pr-2 pl-2 my-2 my-sm-0" type="submit"><i class="fas fa-search lupa"></i></button>
 						</form>
 					</div>
 				</div>
@@ -65,9 +61,62 @@
 		<!--Fim Menu-->
 		<!--Conteudo-->
 
+		<div class="container mt-5 mb-5">
+			<div class="row">
+				<div class="col-12 text-center">
+					<h1 class="display-4">
+						<i class="far fa-envelope-open"></i>Contato
+					</h1>
+				</div>
+				
+			</div>
+			<div class="row justify-content-center mb-5">
+				<div class="col-sm-12 col-md-10 col-lg-8">
+					<form>
+						
+						<div class="form-row">
+							<div class="form-group col-sm-6">	
+								<label for="inputNome">Seu nome</label>
+								<input type="text" name="" class="form-control" id="inputNome" placeholder="Nome">
+							</div>
+							<div class="form-group col-sm-6">
+								<label for="inputSobrenome">Seu sobrenome</label>
+								<input type="text" name="" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+							</div>
 
-		<H1>Em breve...</H1>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-12">
+								<label for="inputEmail">Seu email</label>
+								<input type="text" name="" class="form-control" id="inputEmail" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-row">
+							<div class="form-group col-sm-6">
+								<label for="inputCid">Cidade</label>
+								<select id="inputCid" class="form-control">
+									<option selected>Goianinha</option>
+									<option>Canguaretama</option>
+								</select>
+							</div>
 
+							<div class="form-group col-sm-6">
+								
+								<label for="inputCidade">Seu bairro</label>
+								<input type="text" name="" class="form-control" id="inputCidade" placeholder="Bairro">
+							</div>
+
+						</div>
+						<div class="form-row">
+							<div class="col-sm-12">
+								<button type="submit" class="btn btn-dark">Enviar</button>
+							</div>
+						</div>
+
+					</form>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -109,6 +158,124 @@
 
 	</div>
 
+	<!-- MODAL -->
+	<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Login</h3>
+
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<form class="form">
+									<div class="form-row">
+										<div class="form-group col-12">
+											<label for="loginEmail">Email: </label>
+											<input type="email" id="loginEmail" class="form-control" name="email" placeholder="Ex: Jeffesson01@gmail.com" />
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-12">
+											<label for="loginSenha">Senha: </label>
+											<input type="password" id="loginSenha" name="password" class="form-control" placeholder="Senha" />
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-12">
+											<div class="form-check">
+												<label class="form-check-label">
+													<input type="checkbox" name="checkme" class="form-check-input" />Lembre-me
+												</label>
+											</div>
+										</div>
+									</div>
+									<button type="submit" class="btn-primary btn-lg btn-block">Login</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#ModalRegister">Cadastro</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ModalRegister" tabindex="-1" role="dialog">
+		<div class="modal-dialog " role="document">
+
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Cadastro</h3>
+
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">	
+						<form class="form col-12">
+							<div class="form-row">
+								<div class="form-group col-6">
+									<label for="nome">Nome: </label>
+									<input type="nome" id="nome" class="form-control" name="email" placeholder="Nome" />
+								</div>
+								<div class="form-group col-6">
+									<label for="sobrenome">Sobrenome: </label>
+									<input type="nome" id="sobrenome" class="form-control" name="email" placeholder="Sobrenome" />
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="Email">Email: </label>
+									<input type="email" id="Email" class="form-control" name="email" placeholder="Ex: FulanodeTal@gmail.com" />
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-12">
+									<label for="senha">Senha: </label>
+									<input type="password" id="senha" name="password" class="form-control" placeholder="Senha" />
+								</div>
+							</div>
+							<div class="form-row">
+								<button type="submit" class="btn-primary btn-lg btn-block">Cadastrar</button>
+							</div>
+						</form>
+					</div>
+					
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#siteModal">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
