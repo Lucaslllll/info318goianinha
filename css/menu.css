@@ -1,6 +1,6 @@
 .bot{
 	background: transparent;
-	padding: 6px 5px;
+	padding: 6px 10px;
 	border-radius: 5px;
 	border: 1px solid white;
 	transition: 0.2s;
@@ -37,6 +37,10 @@ body{
 	background: white;
 
 }
+/*Isso altera o tamanho da fonte no placeholder*/
+nav ::-webkit-input-placeholder{
+	font-size: 15px;
+}
 
 .nav-item{
 	border-bottom: 1px transparent solid;
@@ -53,7 +57,10 @@ body{
 	border-bottom: 1px white solid;
 }
 
-
+.lupa{
+	font-size: 12px;
+	text-align: center; 	
+}
 	/*
 		Serve  para borrar
 	-webkit-filter: blur(4px);
