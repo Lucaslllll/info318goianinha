@@ -2,24 +2,24 @@
 <html lang="pt-br">
 <body>
 	<meta charset="utf-8" />
-	<title> Guia goianinha </title>
+	<title> Guia Goianinha </title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.js" />
 	<link rel="stylesheet" type="text/css" href="css/menu.css"/>
 	<link rel="stylesheet" type="text/css" href="css/rodape.css"/>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-	<link rel="stylesheet" type="text/css" href="css/servicos.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
 </head>
 <body>
 	<div class="container-fluid">
 		
-		<!--Menu-->
+		<!--Parte do Menu-->
 		<div class="row">	
 			<nav class="navbar navbar-expand-lg navbar-dark cba col-12 a">
 				<div class="container">
-					<a class="navbar-brand" href="Home.html">GCM</a>
+					<a class="navbar-brand" href="Home.html">GCG</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -29,18 +29,18 @@
 							<li class="nav-item">
 								<a class="nav-link" href="hospedagens.html">Hospedagens<span class="sr-only">(current)</span></a>
 							</li>
-							<li class="nav-item">
+							<li class="nav-item active">
 								<a class="nav-link" href="restaurantes.html">Restaurantes</a>
 							</li>		
 							<li class="nav-item">
 								<a class="nav-link" href="passeios.html">Passeios</a>
 							</li>	
-							<li class="nav-item active">
+							<li class="nav-item">
 								<a class="nav-link" href="servicos.html">Serviços </a>
 							</li>		
 							<li class="nav-item">
 								<a class="nav-link" href="lojas.html">Lojas</a>
-							</li>	
+							</li>
 							<li class="nav-item">
 								<a class="nav-link" href="contato.html">Contatos</a>
 							</li>
@@ -52,7 +52,7 @@
 						<ul class="navbar-nav ml-auto">
 
 							<li class="nav-item">
-								<a href="login.html" class="nav-link afa">Login</a>	
+								<a href="#" data-toggle="modal" data-target="#siteModal" class="nav-link afa">Login</a>	
 							</li>
 
 						</ul>
@@ -68,37 +68,45 @@
 		<!--Conteudo-->
 		
 		<div class="row">
-			<div id="carouselExampleControls" class="carousel slide center d-none d-lg-block" data-ride="carousel">
+			<div id="carousel" class="carousel slide center d-none d-lg-block" data-ride="carousel">
 				<ol class="carousel-indicators transparent">
-					<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="1"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+					<li data-target="#carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel" data-slide-to="1"></li>
+					<li data-target="#carousel" data-slide-to="2"></li>
 				</ol>
 				<div class="carousel-inner">
 
 					<div class="carousel-item active">
-						<img class="d-block w-100 img-carousel" src="img/pousada5.jpg" alt="Primeiro Slide">
+						<img class="d-block w-100 img-carousel tamanho-img" src="img/pousada5.jpg" alt="Primeiro Slide">
 						<div class="carousel-caption backblack">
-							<h5 class="tcor">Pousada 1</h5>
-							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+							<h5 class="tcor">Hotel casa grande</h5>
+							<p class="tcor">Hotel com piscina e café da manhã ao ar livre. As margens da BR-101, Rua: Alberto montenegro. Centro</p>
 						</div>
 					</div>
 
 					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/pousada6.jpg" alt="Segundo Slide">
+						<img class="d-block w-100 img-carousel tamanho-img" src="img/pousada6.jpg" alt="Segundo Slide">
 						<div class="carousel-caption backblack">
-							<h5 class="tcor">Pousada 2</h5>
-							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+							<h5 class="tcor">Pousada visão</h5>
+							<p class="tcor">Pousada com ambiente familiar e com acomodações aconchegantes. As margens da BR-101, Rua: Clóvis Lisboa </p>
 						</div>
 					</div>
 					<div class="carousel-item item3">
-						<img class="d-block w-100 img-carousel" src="img/pousada7.jpg" alt="Terceiro Slide">
+						<img class="d-block w-100 img-carousel tamanho-img" src="img/pousada7.jpg" alt="Terceiro Slide">
 						<div class="carousel-caption backblack">
-							<h5 class="tcor">Pousada 3</h5>
-							<p class="tcor">Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+							<h5 class="tcor">Pousada Tropical</h5>
+							<p class="tcor">Próxima ao posto do galego, em goianinha, a pousada tropical trabalha com preços acessíveis para pacotes de hospedagens que incluem café da manhã. </p>
 						</div>
 					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Voltar</span>
+				</a>
+				<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Avançar</span>
+				</a>
 			</div>
 		</div>
 		<!-- Visivel somente para os Celulares -->
@@ -110,48 +118,58 @@
 		<div class="conteudo d-block d-sm-block d-md-block d-lg-none d-xl-none bg-black">
 			<div class="container">
 				<div class="row">	
-					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards">
-
-							<a href="#">
-								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada5.jpg" alt="Lojas">
-									<div class="card-body">
-										<span class="h5 centertext">Lorem</span>
-										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. </span></p>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards centercard">
+							<div class="card mb-4 shadow-sm ">
+								<a href="#"><img class="card-img-top" style="" src="img/simg.png" alt="Lojas"></a>
+								<div class="card-body">
+									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
+										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
+									</div>
+									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
+									<div class="cen">
+										<a href="" class="tagLink" >Hotel</a> |
+										<a href="" class="tagLink" >Familia</a> |
+										<a href="" class="tagLink" >Cama</a>
 									</div>
 								</div>
-							</a>
+							</div>
 						</div>
 					</div>
-					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards">
-
-							<a href="#">
-								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada6.jpg" alt="Lojas" />
-									<div class="card-body">
-										<span class="h5 centertext">Lorem ipsum dolor sit amet</span>
-										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</span></p>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards centercard">
+							<div class="card mb-4 shadow-sm ">
+								<a href="#"><img class="card-img-top" style="" src="img/simg.png" alt="Lojas"></a>
+								<div class="card-body">
+									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
+										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
+									</div>
+									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
+									<div class="cen">
+										<a href="" class="tagLink" >Hotel</a> |
+										<a href="" class="tagLink" >Familia</a> |
+										<a href="" class="tagLink" >Cama</a>
 									</div>
 								</div>
-							</a>
+							</div>
 						</div>
 					</div>
-					<div class="col col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards">
-
-							<a href="#">
-								<div class="card" style="width: 17rem;">
-									<img class="card-img-top" src="img/pousada7.jpg" alt="Lojas">
-									<div class="card-body">
-										<span class="h5 centertext">Lorem ipsum</span>
-										<p class="card-text "><span class="textbasic">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua.</span></p>
+					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
+						<div class="cards centercard">
+							<div class="card mb-4 shadow-sm ">
+								<a href="#"><img class="card-img-top" style="" src="img/simg.png" alt="Lojas"></a>
+								<div class="card-body">
+									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
+										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
+									</div>
+									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
+									<div class="cen">
+										<a href="" class="tagLink" >Hotel</a> |
+										<a href="" class="tagLink" >Familia</a> |
+										<a href="" class="tagLink" >Cama</a>
 									</div>
 								</div>
-							</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -160,247 +178,364 @@
 		<!--Conteudo 1-->
 		<div class="row">
 			<div class="col-12 titulo">
-				<h2 class="textcenter h2">Serviços e Lojas</h2>
+				<h2 class="textcenter h2">Hospedagens</h2>
 			</div>
 		</div>
 		<div class="conteudo bg-black">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">	
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
+					<div class="col-1 anuncio d-none d-lg-block "></div>
+					<div class="col-12 col-md-12 col-sm-12 col-xl-10 col-lg-10">
+						<div class="row">	
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="individual.html"><img class="card-img-top" style="" src="imgdemo/1.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
 									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/2.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex justify-content-center flex-wrap">
+								<div class="cards centercard">
+									<div class="card mb-4 shadow-sm ">
+										<a href="#"><img class="card-img-top" style="" src="imgdemo/3.jpg" alt="Lojas"></a>
+										<div class="card-body">
+											<div class="conteudoCard"><a href="#"><span class="h5 centertext">Restaurante</span></a>
+												<p class="card-text"><span class="textbasic">Melhor Restaurante de Goianinha!</span></p>
+											</div>
+											<div class="cen">
+												<a href="" class="tagLink" >Self Service</a> |
+												<a href="" class="tagLink" >10:00 - 20:00</a> |
+												<a href="" class="tagLink" >Almoço e Jamtar</a>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center flex-wrap">
-						<div class="cards centercard">
-							<div class="card mb-4 shadow-sm ">
-								<a href="#"><img class="card-img-top" style="" src="img/pousada5.jpg" alt="Lojas"></a>
-								<div class="card-body">
-									<div class="conteudoCard"><a href="#"><span class="h5 centertext">Pousada</span></a>
-										<p class="card-text"><span class="textbasic">Melhor pousada de Goianinha!</span></p>
-									</div>
-									<span class="categoria"><a href="" class="categoriaLink">Hotel e Pousada</a></span>
-									<div class="cen">
-										<a href="" class="tagLink" >Hotel</a> |
-										<a href="" class="tagLink" >Familia</a> |
-										<a href="" class="tagLink" >Cama</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<div class="col-1 anuncio d-none d-lg-block"></div>
+
+					
 				</div>
 			</div>
 		</div>
 
 
-
 		<!-- Rodapé -->
 		<div class="row">
-			<div class="col-12 rodape">
-				<h6>Todos os direitos reservados</h6>
-				<h6><small>Guianinha</small></h6>
+			<div class="col-12 mb-3"></div>
+			<div class="col-sm-12 col-xl-9 col-lg-9 col-md-12 col-12 rodape">
+				<h3 class="text-center">Sobre</h3>
+				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<blockquote class="blockquote text-center">
+					<p class="mb-0">Todos os direitos reservados</p>
+					<footer class="blockquote-footer">Guia Comercial Goianinha</footer>
+				</blockquote>
+			</div>
+			<div class="col-sm-12 col-xl-3 col-md-12 col-lg-3 col-12 text-center rodape">
+				<h3>Social</h3>
+				<div class="btn-group-vertical btn-block btn-group-lg" role="group">
+					<a href="#" class="btn btn-outline-primary"><i class="fab fa-facebook"></i>Facebook</a>
+					<a href="#" class="btn btn-outline-info"><i class="fab fa-twitter"></i>Twitter</a>
+					<a href="#" class="btn btn-outline-warning"><i class="fab fa-instagram"></i>Instagram</a>
+				</div>
 			</div>
 		</div>
+
 		<!-- Fim rodapé -->
+		
+	</div>
+	<!-- MODAL -->
+	<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Login</h3>
 
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
 
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<form class="form">
+									<div class="form-group">
+										<label>Email: </label>
+										<input type="email" class="form-control" name="email" placeholder="Ex: Jeffesson01@gmail.com" />
+									</div>
+									<div class="form-group">
+										<label>Senha: </label>
+										<input type="password" name="password" class="form-control" placeholder="Senha" />
+									</div>
+									<div class="form-group form-check">
+										<input type="checkbox" name="checkme" class="form-check-input" />
+										<label class="form-check-label">Lembre-me</label>
+									</div>
+									<button type="submit" class="btn-primary btn-lg btn-block">Login</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#ModalRegister">Cadastro</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ModalRegister" tabindex="-1" role="dialog">
+		<div class="modal-dialog " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Cadastro</h3>
+
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">	
+						<form class="form col-12">
+							<div class="row">
+								<div class="form-group col-6">
+									<label>Nome: </label>
+									<input type="nome" class="form-control" name="email" placeholder="Nome" />
+								</div>
+								<div class="form-group col-6">
+									<label>Sobrenome: </label>
+									<input type="nome" class="form-control" name="email" placeholder="Sobrenome" />
+								</div>
+								<div class="form-group col-12">
+									<label>Email: </label>
+									<input type="email" class="form-control" name="email" placeholder="Ex: FulanodeTal@gmail.com" />
+								</div>
+
+								<div class="form-group col-12">
+									<label>Senha: </label>
+									<input type="password" name="password" class="form-control" placeholder="Senha" />
+								</div>
+								<button type="submit" class="btn-primary btn-lg btn-block">Cadastrar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#siteModal">Login</button>
+				</div>
+			</div>
+		</div>
 	</div>
 
+
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
