@@ -1,0 +1,62 @@
+.header-site{
+	background: url(../img/goi.png);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+
+.content-site{
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.img-site{
+	background: url(../img/goi.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	color: white
+}
+
+.footer-site{
+	background-color: #171717;;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.img-home{
+	height: 250px;
+	width: 500px;
+}
+.bg{
+	background: rgba(254, 254, 254, 1);
+}
+
+.bg-parallax{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.transparente{
+	background: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+
+.transparente:hover{
+	background: black;
+}
+
+.transparente:hover .nav-link{
+	color: white !important;
+}
+.transparente:hover .navbar-brand{
+	color: white !important;
+}

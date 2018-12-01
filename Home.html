@@ -2,186 +2,278 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<title> Guia Goianinha </title>
+	<title> Guia Comercial Goianinha </title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css"/>
 	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.js" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/menu.css"/>
 	<link rel="stylesheet" type="text/css" href="css/rodape.css"/>
 	<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
-	<link rel="stylesheet" type="text/css" href="css/hospedagens.css" />
+	<link rel="stylesheet" type="text/css" href="css/home.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 
 </head>
-<body>
+<body class="bg">
+	<!--Parte do Menu-->	
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark transparente cba col-12 a">
+		<div class="container">
+			<a class="navbar-brand" href="Home.html">GCG</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	<div class="container-fluid">
-		
-		<!--Parte do Menu-->
-		<div class="row">	
-			<nav class="navbar navbar-expand-lg navbar-dark cba col-12 a">
-				<div class="container">
-					<a class="navbar-brand" href="Home.html">GCM</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-
-					<div class="collapse navbar-collapse" id="navbarSupportedContent">
-						<ul class="navbar-nav mr-auto">
-							<li class="nav-item">
-								<a class="nav-link" href="hospedagens.html">Hospedagens<span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="restaurantes.html">Restaurantes</a>
-							</li>		
-							<li class="nav-item">
-								<a class="nav-link" href="passeios.html">Passeios</a>
-							</li>	
-							<li class="nav-item">
-								<a class="nav-link" href="servicos.html">Serviços </a>
-							</li>		
-							<li class="nav-item">
-								<a class="nav-link" href="lojas.html">Lojas</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="contato.html">Contatos</a>
-							</li>
-						</ul>	
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="hospedagens.html">Hospedagens<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="restaurantes.html">Restaurantes</a>
+					</li>			
+					<li class="nav-item">
+						<a class="nav-link" href="servicos.html">Serviços</a>
+					</li>		
+					<li class="nav-item">
+						<a class="nav-link" href="lojas.html">Lojas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contato.html">Contatos</a>
+					</li>
+				</ul>	
 
 
 
 
-						<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto">
 
-							<li class="nav-item">
-								<a href="login.html" class="nav-link afa">Login</a>	
-							</li>
+					<li class="nav-item">
+						<a href="#" data-toggle="modal" data-target="#siteModal" class="nav-link afa">Login</a>	
+					</li>
 
-						</ul>
-						<form class="form-inline my-2 my-lg-0">
-							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-							<button class="bot my-2 my-sm-0" type="submit">Buscar</button>
-						</form>
-					</div>
-				</div>
-			</nav>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control pl-1 pr-1 ml-1 mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="bot pr-2 pl-2 my-2 my-sm-0" type="submit"><i class="fas fa-search lupa"></i></button>
+				</form>
+			</div>
 		</div>
-		<!--Fim Menu-->
-		<!--Conteudo-->
+	</nav>
+	<!--Fim Menu-->
 
-		<div class="row">
-			<div id="carouselExampleControls" class="carousel slide center d-none d-lg-block" data-ride="carousel">
-				<ol class="carousel-indicators transparent">
-					<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="1"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="2"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="3"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="4"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="5"></li>
-					<li data-target="#carouselExampleControls" data-slide-to="6"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img class="d-block w-100 img-carousel" src="img/goi.jpg" alt="Primeiro Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Guia comercial Goianinha</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/hosp.jpg" alt="Segundo Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Hospedagens</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/res.jpg" alt="Terceiro Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Restaurantes</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/pas.jpg" alt="Quarto Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Passeios</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/ser.png" alt="Quinto Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Serviços</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/lolo.jpg" alt="Sexto Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Lojas</h5>
-						</div>
-					</div>
-					<div class="carousel-item item2">
-						<img class="d-block w-100 img-carousel" src="img/cont.png" alt="Setimo Slide">
-						<div class="carousel-caption backblack">
-							<h5 class="tcor">Contatos</h5>
-						</div>
-					</div>
-
+	<section class="header-site">
+		<div class="container-fluid bg-parallax">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center titulo">BEM-VINDO</h1>
+					<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur</p>
+					<p class="text-center">
+						<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#ModalRegister">Cadastre-se</a>
+					</p>
 				</div>
 			</div>
-
-			<div class="col-12">
-				<h2 class="textcenter h2"> Guia Comercial Goianinha </h2>
-			</div>
-
-
 		</div>
+	</section>
 
 
-		<h1>Em breve descrição da pagina</h1>	
-		<p class="">
-			O guia goianinha, tem o intuito de gerar um site interativo que apresente os produtos e serviços comerciais da cidade de goianinha-RN. Temos o objetivo de manter o site alimentado por pequenas lojas e comércios populares, que quebrem o paradigma de ter poucos meios de propagação, mantendo uma página de acesso imediato e visualmente, aconchegante.
-		</p>
-		<p>O guia tarabalhará com pontos comerciais diversos, portanto, se você usúario está acessando o guia pretendendo cadastrar o seu estabelecimento, vá para o MENU e entre na aba de cadastro. Obrigado!</p>
-		<br/>
-		
+	<section class="content-site">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua.
+					</h1>
+					<p class="text-center">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-4">
+						<div class="img-thumbnail">
+							
+							<img class="img-fluid img-home" src="img/pousada.jpg">
+							<div class="caption text-center">
+								<h3>Hospedagens</h3>
+								<p>
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="img-thumbnail">
+							
+							<img class="img-fluid img-home" src="img/pousada6.jpg">
+							<div class="caption text-center">
+								<h3>Restaurantes</h3>
+								<p>
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-4">
+						<div class="img-thumbnail">
+							
+							<img class="img-fluid img-home" src="img/pousada7.jpg">
+							<div class="caption text-center">
+								<h3>Lojas & Serviços</h3>
+								<p>tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="img-site">
+		<div class="container-fluid bg-parallax">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center titulo">loremaaahsm</h1>
+					<p class="lead text-center">Lorem ipsum dolor sit amet, consectetur</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="footer-site">
 		<!-- Rodapé -->
-		<div class="row">
-			<div class="col-12 mb-3"></div>
-			<div class="col-sm-12 col-xl-12 col-lg-12 col-md-12 col-12 rodape">
-				<h3 class="text-center h3 sobre">Sobre</h3>
-				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 mb-3"></div>
 
-			</div>
-			
-			<div class="col-12 rodape">
-				<blockquote class="blockquote text-center">
-					<footer class="blockquote-footer">Guia Comercial Goianinha</footer>
-				</blockquote>
-				
-			</div>
-			<div class="col-sm-12 col-xl-12 col-md-12 col-lg-12 col-12 pb-2 rodape">
-				<div class="btn-group text-center btn-group-lg" role="group">
-					<a href="#" class="btn btn-outline-primary center1 mr-2 ml-2"><i class="fab fa-facebook"></i></a>
-					<a href="#" class="btn btn-outline-info center1 mr-2 ml-2"><i class="fab fa-twitter"></i></a>
-					<a href="#" class="btn btn-outline-warning center1 mr-2 ml-2"><i class="fab fa-instagram"></i></a>
+				<div class="col-12 rodape">
+
+
 				</div>
-			</div>
-			<div class="col-12 rodape">
-				<blockquote class="blockquote text-center">
-					<p class="mb-0 d-reservados">Todos os direitos reservados</p>
-				</blockquote>
-				
+				<div class="col-sm-12 col-xl-12 col-md-12 col-lg-12 col-12 pb-2 rodape">
+					<div class="btn-group text-center btn-group-lg" role="group">
+						<a href="#" class="btn btn-outline-primary center1 mr-2 ml-2"><i class="fab fa-facebook"></i></a>
+						<a href="#" class="btn btn-outline-info center1 mr-2 ml-2"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="btn btn-outline-warning center1 mr-2 ml-2"><i class="fab fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="col-12 rodape">
+					<blockquote class="blockquote text-center">
+						<p class="mb-0 d-reservados">Todos os direitos reservados</p>
+						<footer class="blockquote-footer">Guia Comercial Goianinha</footer>
+					</blockquote>
+
+				</div>
 			</div>
 		</div>
 		<!-- Fim rodapé -->
-		
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="http://areaaperta.com/nicescroll/js/jquery.nicescroll.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	</body>
-	</html>
+	</section>
+	<!-- MODAL -->
+	<div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Login</h3>
+
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-12">
+								<form class="form">
+									<div class="form-group">
+										<label>Email: </label>
+										<input type="email" class="form-control" name="email" placeholder="Ex: Jeffesson01@gmail.com" />
+									</div>
+									<div class="form-group">
+										<label>Senha: </label>
+										<input type="password" name="password" class="form-control" placeholder="Senha" />
+									</div>
+									<div class="form-group form-check">
+										<input type="checkbox" name="checkme" class="form-check-input" />
+										<label class="form-check-label">Lembre-me</label>
+									</div>
+									<button type="submit" class="btn-primary btn-lg btn-block">Login</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#ModalRegister">Cadastro</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal fade" id="ModalRegister" tabindex="-1" role="dialog">
+		<div class="modal-dialog " role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class=" container-fluid">
+						<div class="row">
+							<div class="col-4"></div>
+							<div class="col-4">
+								<h3 class="modal-title  col-4">Cadastro</h3>
+
+							</div>
+							<div class="col-4">
+								<button type="button" class="close" data-dismiss="modal">
+									<span>&times;</span>
+
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-body">
+					<div class="container-fluid">	
+						<form class="form col-12">
+							<div class="row">
+								<div class="form-group col-6">
+									<label>Nome: </label>
+									<input type="nome" class="form-control" name="email" placeholder="Nome" />
+								</div>
+								<div class="form-group col-6">
+									<label>Sobrenome: </label>
+									<input type="nome" class="form-control" name="email" placeholder="Sobrenome" />
+								</div>
+								<div class="form-group col-12">
+									<label>Email: </label>
+									<input type="email" class="form-control" name="email" placeholder="Ex: FulanodeTal@gmail.com" />
+								</div>
+
+								<div class="form-group col-12">
+									<label>Senha: </label>
+									<input type="password" name="password" class="form-control" placeholder="Senha" />
+								</div>
+								<button type="submit" class="btn-primary btn-lg btn-block">Cadastrar</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#siteModal">Login</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
