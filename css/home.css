@@ -22,7 +22,7 @@
 	background-attachment: fixed;
 	padding-top: 200px;
 	padding-bottom: 200px;
-	color: white
+	color: white;
 }
 
 .footer-site{
@@ -35,14 +35,25 @@
 
 .img-home{
 	height: 250px;
-	width: 500px;
+	width: auto;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	position: relative;
 }
+
+.infoa{
+	height: 450px;
+	padding: 10px;
+	margin: 4px;
+}
+
 .bg{
 	background: rgba(254, 254, 254, 1);
 }
 
 .bg-parallax{
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.3);
+	padding: 100px;	
 }
 
 .transparente{
@@ -69,8 +80,8 @@
 }
 
 .founders{
-	height: 209px;
-	width: 209px;
+	height: 250px;
+	width: 250px;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0);
@@ -84,6 +95,7 @@
 .founders-bg{
 	background: rgba(0, 0, 0, 0.9);
 	padding: 10px;
+	height: 380px;
 }
 .social{
 	position: relative;

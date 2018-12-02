@@ -37,6 +37,23 @@ body{
 	background: white;
 
 }
+
+.transparente{
+	background: rgba(0, 0, 0, 0.8);
+	transition: 0.2s;
+}
+
+.transparente:hover{
+	background: black;
+}
+
+.transparente:hover .nav-link{
+	color: white !important;
+}
+.transparente:hover .navbar-brand{
+	color: white !important;
+}
+
 /*Isso altera o tamanho da fonte no placeholder*/
 nav ::-webkit-input-placeholder{
 	font-size: 15px;

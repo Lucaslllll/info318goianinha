@@ -197,6 +197,12 @@ body{
 }
 /*fim do carousel*/
 
+
+/*edicao de ultima hora*/
+.destaques{
+	margin-top: 40px;
+}
+
 /*
 	cor massa
 background: rgba(125, 187, 58, 0.2);
